@@ -14,5 +14,6 @@ int b = Int32.Parse( GGG[1]);
 int anser = a + b;
 
 Console.WriteLine(anser);
+Console.WriteLine("やったね");
 
 Console.Read();
