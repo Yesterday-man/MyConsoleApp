@@ -16,5 +16,6 @@ int anser = a + b;
 Console.WriteLine(anser);
 Console.WriteLine("やったね");
 Console.WriteLine("成功");
+Console.WriteLine("成功");
 
 Console.Read();
