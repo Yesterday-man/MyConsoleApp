@@ -17,7 +17,7 @@ Build is finshed"""
 msg = MIMEMultipart()
 
 zip_filename = "publish-output.zip"
-zip_attachment = open("../publish-output.zip","rb")
+zip_attachment = open(zip_filename,"rb")
 
 attachment = MIMEBase('application','octet-stream')
 
