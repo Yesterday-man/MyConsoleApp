@@ -8,7 +8,7 @@ Subject: こんにちは
 To: {receiver}
 From: {sender}
 
-ビルドはうまくいきましたか？
+ビルドはうまくいきましたか？"""
 
 with smtplib.SMTP("sandbox.smtp.mailtrap.io", 2525) as server:
     server.login("f67a47abcc6cc4", "ce1f9486228ef4")
